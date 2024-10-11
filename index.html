@@ -1,0 +1,93 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Avatar: A Lenda de Aang</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #263238;
+            color: #eceff1;
+            font-family: 'Arial', sans-serif;
+        }
+        .carousel-item img {
+            max-height: 500px;
+            object-fit: cover;
+        }
+        .card {
+            background-color: #37474f;
+            border: 1px solid #607d8b;
+        }
+        .card-title {
+            color: #ffab00;
+        }
+        .card-text {
+            color: #cfd8dc;
+        }
+        .card-img-top {
+            height: 250px;
+            object-fit: cover;
+        }
+    </style>
+</head>
+<body>
+
+    <div id="avatarCarousel" class="carousel slide mb-4" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="image/ang1.jpg" class="d-block w-100" alt="Aang e seus amigos">
+            </div>
+            <div class="carousel-item">
+                <img src="/image/ang2.jpg" class="d-block w-100" alt="Aang dominando os elementos">
+            </div>
+            <div class="carousel-item">
+                <img src="/image/ang3.jpg" class="d-block w-100" alt="Zuko em batalha">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#avatarCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Anterior</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#avatarCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Próximo</span>
+        </button>
+    </div>
+
+    <div class="container">
+        <div class="row g-4">
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="card h-100">
+                    <img src="/image/aang_card1.jpg" class="card-img-top" alt="Aang">
+                    <div class="card-body">
+                        <h5 class="card-title">Aang</h5>
+                        <p class="card-text">Aang, o último dobrador de ar, é o Avatar destinado a restaurar o equilíbrio entre as nações dominadas pelos elementos.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="card h-100">
+                    <img src="/image/katara_card2.webp" class="card-img-top" alt="Katara">
+                    <div class="card-body">
+                        <h5 class="card-title">Katara</h5>
+                        <p class="card-text">Katara é uma poderosa dobradora de água e se torna uma amiga e aliada de Aang em sua jornada para derrotar a Nação do Fogo.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="card h-100">
+                    <img src="/image/zuko_card3.jpg" class="card-img-top" alt="Zuko">
+                    <div class="card-body">
+                        <h5 class="card-title">Zuko</h5>
+                        <p class="card-text">Zuko, o príncipe exilado da Nação do Fogo, embarca em uma jornada de redenção enquanto busca capturar o Avatar.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
